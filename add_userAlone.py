@@ -22,7 +22,7 @@ import time
 
 
 
-key = b'2jwyEjZD6vCRBPn1Hf8YgyBWRBhtw9S53WefhwxCG6o='
+key = b'add_your_key'
 
 def encrypt(text):
     fernet = Fernet(key)
