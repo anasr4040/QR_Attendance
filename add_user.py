@@ -25,7 +25,7 @@ P_teamid = list(file['TeamID'])
 P_contac = list(file['Contact'])
 P_modules = list(file['Modules'])
 
-key = b'2jwyEjZD6vCRBPn1Hf8YgyBWRBhtw9S53WefhwxCG6o='
+key = b'Add_Your_key'
 
 def encrypt(text):
     fernet = Fernet(key)
