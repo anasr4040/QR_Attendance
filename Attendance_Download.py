@@ -11,10 +11,10 @@ TimeStamp = []
 
 def viewdatabase():
     conn = mysql.connector.connect(
-        host="184.168.96.229",
-        user="scinnova_ticketing",
-        password="27Y]!Q3^r^pe",
-        database="scinnova_ticketing"
+        host="addYourServerIpAddress",
+        user="AddYourUserName",
+        password="AddPassword",
+        database="AddDatabaseName"
     )
     c = conn.cursor()
     c.execute("SELECT * FROM Attendance")
